@@ -1,35 +1,21 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
-.container {
-    max-width: 480px;
-    width: 100%;
-    margin: 0 auto;
+.carousel img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 form {
-    margin-top: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 input, button {
-    height: 24px;
-    width: 240px;
-    padding: 4px;
-}
-
-.texto-form{
-    margin-top: 10px;
-}
-
-button{
-    margin-top: 12px;
-    background-color: greenyellow;
-    border: none;
-    cursor: pointer;
+  padding: 8px;
 }
