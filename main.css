@@ -10,9 +10,10 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #007bff;
-    color: #fff;
+
+header .container{
+    
+    color: #070606;
     text-align: center;
     padding: 20px 0;
     margin: 0 auto;
@@ -21,6 +22,27 @@ header {
 h2 {
     text-align: center;
     margin-bottom: 16px;
+}
+
+nav{
+    background-color: #5f5858;
+    padding: 10px 0;
+    display: none;
+
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .container {
@@ -50,7 +72,7 @@ h2 {
 }
 
 .container button {
-    background-color: #007bff;
+    background-color: #000000;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -61,4 +83,22 @@ h2 {
 
 .error {
     color: red
+}
+
+form {
+    max-width: 360px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: grabbing;
+    border-radius: 6px;
 }
